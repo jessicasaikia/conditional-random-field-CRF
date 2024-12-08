@@ -1,5 +1,5 @@
 # Conditional Random Field (CRF)
-This repository implements a Conditional Random Field (CRF) for performing Parts-of-Speech (POS) Tagging on Assamese-English code-mixed texts.
+This repository implements a Conditional Random Field (CRF) model for performing Parts-of-Speech (POS) Tagging on Assamese-English code-mixed texts.
 
 ## Introduction to Parts-of-Speech (PoS) Tagging
 PoS tagging is the process of identifying and labeling grammatical roles of words in texts, supporting applications like machine translation and sentiment analysis. While different languages may have their own PoS tags, I have used my own custom PoS tags for this model. The Table below defines the custom PoS tags used in this model-
@@ -18,19 +18,19 @@ The CRF is a type of probabilistic graphical model that is often applied in Natu
 
 ## Where should you run this code?
 I used Google Colab for this Model:
-1. Simply create a new notebook (or file) on Google Colab.
+1. Create a new notebook (or file) on Google Colab.
 2. Paste the code.
 3. Upload your CSV dataset file to Google Colab.
 4. Please make sure that you update the "path for the CSV" part of the code based on your CSV file name and file path.
 5. Run the code.
 6. The output will be displayed and saved as a different CSV file.
 
-You can also VScode or any other platform (this code is just a python a code):
-1. In this case, you will have to make sure you have the necessary libraries installed and dictionaries loaded correctly.
-2. Simply run the program for the output.
+You can also VScode or any other platform (this code is just a python code):
+1. In this case, you will have to make sure you have the necessary libraries installed and datasets loaded correctly.
+2. Run the program for the output.
 
 ## Additional Notes from me
-In case of any help or queries, you can reach out to me in the comments or via my socials. My socials are:
+If you need any help or questions, feel free to reach out to me in the comments or via my socials. My socials are:
 - Discord: jessicasaikia
 - Instagram: jessicasaikiaa
 - LinkedIn: jessicasaikia (www.linkedin.com/in/jessicasaikia-787a771b2)
